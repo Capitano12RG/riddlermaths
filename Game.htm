@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<Head>
+<Title>
+MathQuiz
+</title>
+
+<meta name="viewport" content="width=device-width">
+
+<style>
+#header1
+{border: 5px solid white;
+/*background-image: url("b3.jpg");*/
+Background-size:Cover;
+background-attachment:fixed;
+margin-top:5cm;width:650px;Box-shadow:10px 10px 10px grey;background-color:PapayaWhip;;margin:auto;font-variant: small-caps;
+}
+body
+{
+Background-size:Cover;
+background-attachment:fixed;
+}
+</style>
+
+<script type="text/javascript" src="game.js">
+</script>
+</head>
+
+
+<Body  background="69033918-mathematics-wallpapers.jpg"  >
+<!--onload="setTimeout(myFunction, 120000)"-->
+<script>
+//alert("Welcome to Mathsquiz!! \n•Quiz duration - 2 min.\n•Try answering maximum questions in the aforementioned timeframe.\n \n \t -----Good Luck!!---- ");
+//\n will break the line
+</script>
+<!--<img src="The_Riddler_AA.png" style="position: absolute;
+right: 0px;
+bottom: 0px;height:400px;">-->
+
+
+
+<img src="Batman.png" style="position: absolute;
+right: 0px;
+bottom: 0px;height:300px;"/>
+
+
+<div id="header1">
+<img src="Riddler.png" style="position: absolute;float:left;height:200px;"/>
+<h2 > <Center>Riddler series</center></h2><center>Chapter-Mathametical calculations</center><h4><center>By Rajat Gupta || 29-May-2017</h4></center>
+</div>
+
+<div id="start1" style="width:650px;height:440px;margin:auto;margin-top:20px;background-color:PapayaWhip;border: 5px solid white;Box-shadow:10px 10px 10px grey;">
+<br>
+<center>
+<img src="rulesboook.png" style="width:80px;height:70px;"/>
+</center>
+<br>
+
+<div style="font-variant:small-caps;font-size:120%;width:650px;">
+<img src="586612e37d90850fc3ce2a4e.png" style="width:120px;height:120px;float:Left;"/>
+<p style="width:650px;">
+• Quiz duration - 2 min.</br>• Try answering maximum questions in the aforementioned timeframe.</br>
+• 1 Pt. added for each correct answer ; Retry if you get the answer wrong; 1 pt. deducted for each skip</br>
+• For division round off the answer to 2 decimal places.
+</br>
+</p>
+</div>
+<center>
+<img src="quiz_button.png"  title="Click here to start the quiz"  style="font-variant: small-caps;width:150px;height:90px;margin:auto;" onClick="Start()"/></center>
+</center>
+<center>
+<p style="font-variant:small-caps;font-size:120%;">
+-----Good Luck!!----
+
+</p>
+<center>
+</div>
+
+
+
+
+<!--readonly is to render a textbox as non editable-->
+<div id="game" style="display:none;width:650px;height:150px;margin:auto;margin-top:20px;background-color:PapayaWhip;;border: 5px solid white;Box-shadow:10px 10px 10px grey;">
+
+<b><span style="font-variant: small-caps;">Score:&nbsp&nbsp&nbsp</span></b><input type="text" name="Score11" id="Score11" readonly  style="background-color: transparent;border: 0;width:50px;font-size:100%;"/>
+</br>
+</br>
+&nbsp&nbsp<input type="text" name="no1" id="no1" readonly  style="margin-left:5cm;background-color: transparent;border: 0;width:50px;font-size:120%;"/>
+<script>
+var _0x5e94=["\x72\x61\x6E\x64\x6F\x6D","\x76\x61\x6C\x75\x65","\x6E\x6F\x31","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x72\x6F\x75\x6E\x64"];var no11=Math[_0x5e94[0]]()* 1000;document[_0x5e94[3]](_0x5e94[2])[_0x5e94[1]]= Math[_0x5e94[4]](no11)
+</script>
+&nbsp&nbsp
+<input type="text" name="symbol" id="symbol" style="width:10px;font-size:120%; border: 0;  background-color: transparent;" readonly/>
+<script>
+var _0x7cd6=["\x2B","\x2D","\x2A","\x2F","\x72\x61\x6E\x64\x6F\x6D","\x6C\x65\x6E\x67\x74\x68","\x72\x6F\x75\x6E\x64","\x76\x61\x6C\x75\x65","\x73\x79\x6D\x62\x6F\x6C","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64"];var new1=[_0x7cd6[0],_0x7cd6[1],_0x7cd6[2],_0x7cd6[3]];var new2=new1[Math[_0x7cd6[6]](Math[_0x7cd6[4]]()* (new1[_0x7cd6[5]]- 1))];document[_0x7cd6[9]](_0x7cd6[8])[_0x7cd6[7]]= new2
+</script>
+&nbsp&nbsp&nbsp&nbsp<input type="text" name="no2" id="no2" readonly style="background-color: transparent;border: 0;width:50px;font-size:120%;"/>
+<script>
+var _0x217c=["\x72\x61\x6E\x64\x6F\x6D","\x76\x61\x6C\x75\x65","\x6E\x6F\x32","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x72\x6F\x75\x6E\x64"];var no22=Math[_0x217c[0]]()* 1000;document[_0x217c[3]](_0x217c[2])[_0x217c[1]]= Math[_0x217c[4]](no22)
+</script>&nbsp&nbsp
+=&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="ans" id="ans" placeholder="Enter your answer here.." autofocus onChange="Check()"/>
+<br>
+</br>
+</br>
+</br>
+
+<b><input type="text" value="Skip" readonly style="background-color:transparent;float:right;border: 0; font-variant:small-caps;font-size:120%;text-align:right;" onClick="Skip1()"></b>
+
+<center>&nbsp<img src="minion-mma.png" style="width:300px;margin-left:2cm;"/></center>
+
+</div>
+
+
+<div id="endgame" style="display:none;width:650px;height:500px;margin:auto;margin-top:20px;background-color:PapayaWhip;;border: 5px solid white;Box-shadow:10px 10px 10px grey;">
+<center>
+<img src='58889250bc2fc2ef3a1860ab.png' style='width:50px;height:50px;'></img></center>
+
+<center>
+<p style="Font-Size:150%;color:Black;
+    text-shadow: -1px -1px  black  ;margin-top:1cm;font-variant:small-caps;width:400px" i> Time over!!
+</center>
+
+<center>
+<b>
+<div style="width:650px;height:100px;">
+<img src="580b57fcd9996e24bc43c4c4.png" style="float:left;width:150px;height:150px;"/>
+<p style="Font-Size:150%;color:Black;width:400px;
+    text-shadow: -1px -1px  black  ;margin-top:1cm;font-variant:small-caps;" id="final1">
+</p>
+<p style="Font-Size:150%;color:Black;
+    text-shadow: -1px -1px  black  ;margin-top:1cm;font-variant:small-caps;width:400px" >
+Thanks for hanging out with us!! Please revisit if you had fun with the game.. 
+</p>
+<center>
+<img src="button_win_again.png" style="width:80px;height:80px;" onClick="reload1()" title="Click here to restart the quiz"/></center>
+</div>
+
+</body>
